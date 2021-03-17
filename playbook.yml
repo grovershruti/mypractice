@@ -1,0 +1,9 @@
+---
+- name: Deploy React App Front-end Build
+  connection: ssh
+  gather_facts: false
+  hosts: all
+  vars:
+    repo_folder: /var/www/mypratice
+    live_folder: /var/www/ansible/ansi
+    repo_name: shrutigrover96@gmail.com/mypratice
